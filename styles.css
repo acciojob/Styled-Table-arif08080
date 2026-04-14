@@ -1,13 +1,45 @@
 /* your code */
-th,td {
-    padding: 12px 15px;
-    font-size: 0.9rem;
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
 }
-th {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-	color: white;
+
+table {
+    width: 100%;
+    border-collapse: separate; 
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+thead {
+    background-color: #1a5276; 
+    color: white;
     text-align: left;
 }
 
+th, td {
+    padding: 12px 15px;
+    font-size: 0.9rem;
+}
 
+th {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+tbody {
+    background-color: #f2f2f2; 
+}
+
+
+.highlight {
+    background-color: #dcdcdc; 
+}
+
+tr:hover {
+    background-color: #cbd5e0;
+}

@@ -1,1 +1,13 @@
 /* your code */
+th,td {
+    padding: 12px 15px;
+    font-size: 0.9rem;
+}
+th {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	color: white;
+    text-align: left;
+}
+
+
